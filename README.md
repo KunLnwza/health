@@ -135,6 +135,8 @@ local function YDDLQYT_fake_script() -- TextButton_2.LocalScript
 		wait(0.6)
 		script.Parent.Parent.Visible = false
 		game.Players.LocalPlayer.character.Humanoid.Health = script.Parent.Parent.TextBox.Text
+                game.Players.LocalPlayer.character.Humanoid.MaxHealth = script.Parent.Parent.TextBox.Text
+
 	end)
 	
 	
